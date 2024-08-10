@@ -30,7 +30,7 @@ variable "value" {
 
 variable "instance_name" {
   type = string
-  description = " calling"
+  description = " calling int"
 }
 
 
