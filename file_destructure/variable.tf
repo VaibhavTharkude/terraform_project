@@ -28,5 +28,10 @@ variable "value" {
   description = "output block calling"
 }
 
+variable "value" {
+  type = string
+  description = "output block calling"
+}
+
 
 
