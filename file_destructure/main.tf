@@ -17,7 +17,7 @@ resource "aws_instance" "this" {
   ami                     = var.ami
   instance_type           = var.instance_type
   key_name                = var.key_name
-  instance_name           =va
+  instance_name           = var.inst
 
   tags = var.tags
 
