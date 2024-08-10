@@ -8,7 +8,7 @@ key_name = "Cloude1"
 
 tags = {
     Enviorment = "staging"
-    owner = "jarvis"    
+    owner = "Vaibhav"    
   }
 
 value = "Here we are trying to create machine from file destrucutre"
