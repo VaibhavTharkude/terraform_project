@@ -6,6 +6,8 @@ instance_type = "t2.micro"
 
 key_name = "Cloude1"
 
+
+
 tags = {
     Enviorment = "staging"
     owner = "Vaibhav"    
