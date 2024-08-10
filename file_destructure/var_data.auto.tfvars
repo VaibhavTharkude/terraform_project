@@ -6,7 +6,7 @@ instance_type = "t2.micro"
 
 key_name = "Cloude1"
 
-
+instance_name = "terra"
 
 tags = {
     Enviorment = "staging"
