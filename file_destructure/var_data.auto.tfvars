@@ -6,7 +6,7 @@ instance_type = "t2.micro"
 
 key_name = "Cloude1"
 
-instance_name = "terra"
+instance_name = "terrafoam_server2"
 
 tags = {
     Enviorment = "staging"
