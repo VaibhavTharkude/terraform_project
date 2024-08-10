@@ -11,7 +11,7 @@ terafform validate
 terraform plan
 terraform apply
 terraform apply --auto-approve
-terraform destory
+terraform destroy
 ```
 ## Terraform registry
 1. Examples
