@@ -28,10 +28,5 @@ variable "value" {
   description = "output block calling"
 }
 
-variable "instance_name" {
-  type = string
-  description = " calling instance_name"
-}
-
 
 
