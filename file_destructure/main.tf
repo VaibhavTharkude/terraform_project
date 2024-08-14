@@ -57,5 +57,5 @@ resource "aws_instance" "server_1" {
     key_name = var.key_name
     tags = var.tags
     count = 2
-    user_data = "${file("user-data-apache.sh")}" 
+    user_data = "${file("/home/ubuntu/user-data-apache.sh")}" 
 }
