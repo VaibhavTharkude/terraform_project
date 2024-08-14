@@ -57,6 +57,6 @@ resource "aws_instance" "this" {
     key_name      = aws_key_pair.my_key.key_name
     vpc_security_group_ids = ["${aws_security_group.mysg.id}"]
     tags          = var.tags
-        count = 2
+    count = 2
     user_data = "${file("user-data-apache.sh")}"
 }
