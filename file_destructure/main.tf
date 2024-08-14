@@ -13,7 +13,7 @@ provider "aws" {
 
 resource "aws_key_pair" "my_key" {
     key_name = "terra_key"
-    public_key = file("~/.ssh/id_rsa.pub")
+    public_key = file("~/ssh-keygen -C “<key_name>”")
 }
 
 locals {
