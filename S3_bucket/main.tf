@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform-state" {
-    bucket = "terraform-state-bucket-cdec-b37"
+    bucket = "terraform-state-bucket-cdec-"
 }
 
 resource "aws_s3_bucket_versioning" "terraform-state" {
