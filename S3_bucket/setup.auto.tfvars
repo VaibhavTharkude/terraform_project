@@ -25,5 +25,3 @@ tags = {
     Enviorment = "staging"
     owner = "Vaibhav"    
   }
-
-value = "Here we are trying to create machine from file destrucutre"
