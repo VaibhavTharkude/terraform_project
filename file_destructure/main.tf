@@ -52,7 +52,7 @@ resource "aws_security_group" "mysg" {
 resource "aws_instance" "this" {
     ami           = var.ami
     instance_type = var.instance_type
-    key_name      = aws
+    key_name      = aws_key_pair.my_key.name
     vpc_security_group_ids = ["${aws_security_group.mysg.id}"]
     tags          = var.tags
 }
