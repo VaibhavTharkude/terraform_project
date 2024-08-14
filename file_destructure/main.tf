@@ -11,10 +11,7 @@ provider "aws" {
     region = var.region
 }
 
-resource "aws_key_pair" "my_key" {
-    key_name = "terra_key"
-    public_key = file("~/.ssh/id_ed25519.pub")
-}
+
 
 locals {
   map = {
