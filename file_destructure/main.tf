@@ -55,6 +55,7 @@ resource "aws_instance" "server_1" {
     ami = var.ami
     instance_type = var.instance_type
     key_name = var.key_name
+    k
     tags = var.tags
     count = 2
     user_data = "${file("/home/ubuntu/user-data-apache.sh")}" 
