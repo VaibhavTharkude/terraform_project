@@ -48,7 +48,7 @@ resource "aws_security_group" "mysg" {
 
 resource "aws_key_pair" "my_key" {
     key_name = "terra_key"
-    # public_key = file("~/.ssh/id_ed25519.pub")
+    public_key = file("~/.ssh/id_ed25519.pub")
 }
 
 resource "aws_instance" "server_1" {
