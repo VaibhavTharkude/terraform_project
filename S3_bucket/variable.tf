@@ -13,10 +13,10 @@ variable "instance_type" {
     description = "instance_type calling"
 }
 
-# variable "key_name" {
-#     type = string
-#     description = "key_pair calling"
-# }
+variable "key_name" {
+    type = string
+    description = "key_pair calling"
+}
 
 variable "tags" {
     type = map
